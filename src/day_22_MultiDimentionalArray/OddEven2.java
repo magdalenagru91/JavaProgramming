@@ -1,6 +1,4 @@
-package day_21_MultiDimentionalArray;
-import java.util.Arrays;
-
+package day_22_MultiDimentionalArray;
 
 
 public class OddEven2 {

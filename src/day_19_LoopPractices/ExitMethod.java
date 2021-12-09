@@ -15,5 +15,6 @@ public class ExitMethod {
         }
         System.out.println("Wooden Spoon");
 
+
     }
 }
