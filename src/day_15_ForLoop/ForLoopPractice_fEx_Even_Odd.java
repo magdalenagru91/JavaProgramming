@@ -1,6 +1,6 @@
 package day_15_ForLoop;
 
-public class ForLoopPractice {
+public class ForLoopPractice_fEx_Even_Odd {
 
     public static void main(String[] args) {
 
