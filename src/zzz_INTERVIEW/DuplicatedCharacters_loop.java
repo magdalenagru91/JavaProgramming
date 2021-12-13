@@ -25,7 +25,11 @@ public class DuplicatedCharacters_loop {
                     count++;
                 }
             }
-            if (count==1) { //if the frequency is 1 - character is unique
+
+            if (result.contains(""+ch)){
+                continue;
+            }
+            if (count>1) { //if the frequency is 1 - character is unique
                 result+=ch;
             }
 
