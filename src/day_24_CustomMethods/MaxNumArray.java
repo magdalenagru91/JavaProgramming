@@ -6,16 +6,17 @@ public class MaxNumArray {
 
     public static void main(String[] args) {
 
-        int yourMax = arr(new int[] {1,2,3,7});
+        int yourMax = arr(new int[] {1,25,3,7});
         System.out.println(yourMax);
     }
 
 
    public static int arr (int[] yourArray){
         int max = yourArray[0];
+
        for (int each : yourArray) {
            if (each>max){
-               max=each;
+              max=each;
            }
 
        }
