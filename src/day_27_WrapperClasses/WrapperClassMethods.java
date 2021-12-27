@@ -3,7 +3,7 @@ package day_27_WrapperClasses;
 public class WrapperClassMethods {
     public static void main(String[] args) {
 
-
+    // parse: you give wrapper type for example Integer and after dot parse+the correct type and in the parentesis string name we want to convert
         String str = "123";
 
         int num = Integer.parseInt(str); //int
@@ -36,16 +36,18 @@ public class WrapperClassMethods {
 
 
 
-        String s1 = "maybe";
+        String s1 = "true";
 
         boolean r1 = Boolean.parseBoolean(s1);
 
-        System.out.println(r1);
+        System.out.println("maybe " + r1);
 
 
+
+//value of: you change string to wrapper
 
         String s2 = "123";
-        Integer x = Integer.valueOf(s2);
+        Integer x = Integer.valueOf(s2); //Integer
         int y = Integer.valueOf(s2);
 
         System.out.println(x);
@@ -65,7 +67,7 @@ public class WrapperClassMethods {
         int sum = 0;
         for (char each : s.toCharArray()) {        //I convert the string s to char array in my loop yet
             if (Character.isDigit(each)){
-                sum += Integer.parseInt(""+each);
+                sum += Integer.parseInt(""+each);   //I converted char each to int thats why i can add it
 
             }
         }
@@ -99,5 +101,20 @@ public class WrapperClassMethods {
         System.out.println(r4);
         System.out.println(r5);
         System.out.println(r6);
+
+
+
+
+
+        String s11 = "ab2cde2efg3hi4";
+        int sum1 =0;
+
+        for (char c : s11.toCharArray()) {
+            if (Character.isDigit(c)){
+                sum1+=Integer.parseInt(""+c);
+            }
+        }
+        System.out.println(sum1);
+
     }
 }

@@ -162,5 +162,14 @@ public class QUIZ2 {
         System.out.println("---------------------------------------------------------");
         float f =1.2f;
 
+
+
+
+        System.out.println("----------------------------");
+
+        String[][] listing = new String[][] {{"book","elo"},{"book"}};
+        System.out.println(listing.length);
+        System.out.println((listing[0].length));
+
     }
 }

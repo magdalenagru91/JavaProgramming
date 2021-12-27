@@ -51,7 +51,7 @@ public class RemoveElements1 {
         int j = 0; //index of the array result
 
         for (int i = 0; i < array.length; i++) {
-            if (i == index) {
+            if (i == index) {               //index in my method that I put in
                 continue;
             }
             result[j++] = array[i];
