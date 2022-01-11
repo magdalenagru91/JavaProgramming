@@ -22,6 +22,7 @@ public class Arrays_Intro {
         //System.out.println(myGroup);    //hashcode-> wrong way to print the array
 
         System.out.println(Arrays.toString(myGroup));         //imports java.util.Array class
+        System.out.println(myGroup[1]);
 
 
         System.out.println("------------------------");

@@ -35,7 +35,7 @@ public class MathUtility {
             2.2 Create a method that can return the sum of two decimal numbers
      */
 
-    public static int sumOfIntegers(int number1, int number2) {
+    public static int sum(int number1, int number2) {
         return number1 + number2;
     }
 
@@ -45,7 +45,7 @@ public class MathUtility {
     2.2 Create a method that can return the sum of two decimal numbers
      */
 
-    public static double sumOfIntegers(double number1, double number2) {
+    public static double sum(double number1, double number2) {
         return number1 + number2;
     }
 
@@ -55,14 +55,14 @@ public class MathUtility {
     2.3 Create a method that can return the subtraction of two integers
     */
 
-    public static int substructionOfIntegers(int number1, int number2) {
+    public static int substruct(int number1, int number2) {
         return number1 - number2;
     }
 
     /*
         2.4 Create a method that can return the subtraction of two decimals
      */
-    public static double substructionOfDecimals(double number1, double number2) {
+    public static double substruct(double number1, double number2) {
         return number1 - number2;
     }
 
@@ -70,21 +70,21 @@ public class MathUtility {
     /*
     2.5 Creat a method that can return the multiplication of two integers
     */
-    public static int multiplicationOfIntegers(int number1, int number2) {
+    public static int multiplication(int number1, int number2) {
         return number1 - number2;
     }
 
     /*
     2.6 Create a method that can return the multiplication of two decimals
      */
-    public static double multiplicationOfDecimals(double number1, double number2) {
+    public static double multiplication(double number1, double number2) {
         return number1 - number2;
     }
 
     /*
     2.7 Create a method that passes two double parameters and return the division reslt
      */
-    public static double divisionOfDoubles (double number1, double number2){
+    public static double division (double number1, double number2){
         return number1/number2;
     }
 

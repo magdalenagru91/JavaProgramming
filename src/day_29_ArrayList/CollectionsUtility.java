@@ -26,10 +26,14 @@ public class CollectionsUtility {
 
         System.out.println("--------------------------------");
 
+
         ArrayList<Character> list2 = new ArrayList<>();
         list2.addAll(Arrays.asList('A','B','C','D','E'));
 
         System.out.println(list2);
+
+
+
 
 
 

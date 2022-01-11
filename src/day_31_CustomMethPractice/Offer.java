@@ -5,7 +5,7 @@ public class Offer {
     /*
     Offer Task:
     1. Create a custom class named Offer
-            Attributes:
+            BankAccount:
                     location, companyName, jobTitle, salary, hasBenefit, hasPTO, isWFH, isFullTime
 
             Actions:

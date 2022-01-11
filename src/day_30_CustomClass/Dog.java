@@ -51,10 +51,9 @@ public class Dog {
     }
     */
 
-}
 
-   /*
-   Attributes: - instance because when I have different objects I want to store different everything
+     /*
+   BankAccount: - instance because when I have different objects I want to store different everything
    name, age, gender, breed, size, color
 
    Actions:
@@ -63,4 +62,8 @@ public class Dog {
 
 
 
+
+
+
+}
 

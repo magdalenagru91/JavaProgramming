@@ -1,9 +1,9 @@
 package day_31_CustomMethPractice;
 
-public class Attributes {
+public class BankAccount {
 /*
 BankAccount Task:
-        Attributes:
+        BankAccount:
                 1. accountHolder, 2. accountNumber, 3. balance
 
         Actions:
@@ -18,7 +18,7 @@ BankAccount Task:
     public double balance;
 
 
-    public void setInfo(String accountHolder, int accountNumber, double balance) {
+    public void setInfo(String accountHolder, int accountNumber) {
         this.accountHolder = accountHolder;
         this.accountNumber = accountNumber;
         this.balance = balance;
@@ -26,37 +26,40 @@ BankAccount Task:
 
 
     public String toString() {
-        return "Attributes{" +
+        return "BankAccount{" +
                 "accountHolder='" + accountHolder + '\'' +
                 ", accountNumber=" + accountNumber +
                 ", balance=" + balance +
                 '}';
     }
 
+
     public void checkBalance(){
         System.out.println("Your available balance is: " + balance);
     }
 
+
     public void deposit(double amount) {
         if (amount <= 0) {
-            System.out.println("Depositing amount can not be zero or negative.");
+            System.out.println("Depositing amount cannot be zero or negative.");
             return; //exits the method
         }
             balance += amount;
         }
 
 
-    public void withdraw(double amount){
+    public void withdraw(double amount){    //void - nie robimy return, tu tylko manipulujemy balance, ktory uzyjemy przy czym  innym, a samego amount nie uzywamy znowu
         if (amount>balance){    //if withdrawing amount is greater than the available balance
             System.out.println("Insufficient balance.");
             return; //exits the function
         }
 
         if (amount<=0){     //if the withdrawing amount is negative or 0
-            System.out.println("Withrawing amount can not be zero or negative.");
+            System.out.println("Withdrawing amount cannot be zero or negative.");
             return;
         }
             balance-=amount;
+
         }
 
     }

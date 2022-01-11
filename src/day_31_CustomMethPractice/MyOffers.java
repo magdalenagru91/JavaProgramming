@@ -7,6 +7,15 @@ public class MyOffers {
 
     public static void main(String[] args) {
 
+        /*
+        2.5 Create an ArrayList of Offer named offersWithBenefits and add all the offer objects.
+                    2.5.1 Write a program that can remove all the offers that does not have benefit and does not have PTO
+            2.6 Create an ArrayList of Offer named sdetOffers and add all the offer objects.
+                    2.6.1 Write a program that can remove all the offers that are not for SDET
+            2.7 Create an ArrayList of Offer named offersWith100K and add all the offer objects.
+                    2.7.1 Write a program that can remove all the offers that are offering less than 100K salary
+         */
+
         //Offer - is a constructor
         //for it to be reusable you need to assign it to a variable
         Offer offer1 = new Offer();
@@ -42,13 +51,14 @@ public class MyOffers {
 
         Offer [] myOffers = {offer1,offer2,offer3,offer4,offer5};
 
-        ArrayList<Offer> fullTimeOffers = new ArrayList<>( Arrays.asList( myOffers )  );
+        ArrayList<Offer> fullTimeOffers = new ArrayList<>( Arrays.asList( myOffers )  );    //arrays.asList cause myOffers is an array only
         //ArrayList<Offer> -> Offer cause it is our variable
 
         fullTimeOffers.removeIf( p -> !p.isFullTime ); // removes the offer if the offer is NOT fulltime
         //p represents each of the offers we have here in this array list
 
         System.out.println("Full time: " + fullTimeOffers.size());
+        System.out.println("Full time: " + fullTimeOffers);
 
 
 

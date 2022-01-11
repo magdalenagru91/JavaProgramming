@@ -14,5 +14,10 @@ public class ArrayListPractice2_Employees {
         employees.retainAll(Arrays.asList("Ahmed", "David"));
 
         System.out.println(employees);
+
+
+
+
+
     }
 }

@@ -84,7 +84,7 @@ public class ArrayListMethods2 {
 
         System.out.println(list1 == list2);     //it is false cause they are 2 different objects - starts with NEW, they are not same objects
 
-        System.out.println(list1.equals(list2));        //here we compare the elements, it is true, equals - same elements in same order
+        System.out.println("equals? " + list1.equals(list2));        //here we compare the elements, it is true, equals - same elements in same order
 
 
 
@@ -107,5 +107,19 @@ public class ArrayListMethods2 {
         numbers.addAll(Arrays.asList(1,2,3,4,5,6,7));       //we dont have to add one by one like we did at the beginning,
                                                             // it adds a lot of elements at the same time
         System.out.println(numbers);
+
+
+
+        System.out.println("----------------------------------");
+        ArrayList<Integer> u = new ArrayList<>();
+        Integer [] t = {1,2};
+        ArrayList<Integer> u1 = new ArrayList<>(Arrays.asList(t));
+
+        System.out.println(u1);
+
+        u.addAll(u1);
+
+        System.out.println(u);
+
     }
 }

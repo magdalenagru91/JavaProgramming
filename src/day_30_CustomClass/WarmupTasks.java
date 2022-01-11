@@ -126,7 +126,7 @@ if we know the numbers - use removeAll
             chars.add( str.charAt(i) );
         }
 
-        ArrayList<Character> letters = new ArrayList<>(chars);      //add all the characters
+        ArrayList<Character> letters = new ArrayList<>(chars);      //add all the characters from chars arrayList to letters arrayList
         System.out.println("chars = " + letters);
 
 
@@ -134,11 +134,11 @@ if we know the numbers - use removeAll
         System.out.println("Letters = " + letters);
 
 
-        ArrayList<Character> digits = new ArrayList<>(chars);   //add all the characters
+        ArrayList<Character> digits = new ArrayList<>(chars);   //add all the characters from chars arrayList to digits arrayList
         System.out.println("digits = " + digits);
 
 
-        digits.removeIf( p -> !Character.isDigit(p) );      ////remove the character that are not digits
+        digits.removeIf( p -> !Character.isDigit(p) );      //remove the character that are not digits
         System.out.println("Digit = " + digits);
 
 
