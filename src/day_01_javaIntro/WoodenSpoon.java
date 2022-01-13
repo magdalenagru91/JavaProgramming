@@ -1,4 +1,4 @@
-package day01_javaIntro;
+package day_01_javaIntro;
 
 public class WoodenSpoon {
 

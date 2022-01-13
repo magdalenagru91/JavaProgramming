@@ -1,4 +1,4 @@
-package day02_HelloWorld;
+package day_02_HelloWorld;
 
 public class MyClassmates {
 

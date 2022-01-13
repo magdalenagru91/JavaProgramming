@@ -1,4 +1,4 @@
-package day01_javaIntro;
+package day_01_javaIntro;
 
 import day_24_CustomMethods.ReturnMethodIntro;
 import day_24_CustomMethods.ReturnMethodsPractice4_RemoveDuplicates;

@@ -1,4 +1,4 @@
-package day03_EscapeSequences;
+package day_03_EscapeSequences;
 
 public class GasReceipt {
 
