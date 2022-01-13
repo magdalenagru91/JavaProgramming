@@ -19,10 +19,22 @@ public class Car {
     }
 
     public void start(){
-        System.out.println(brand + " " + model + " starts");
+        System.out.println(brand + " " + model + " is starting");
     }
 
     public void drive(){
-        System.out.println(brand + " " + model + " drives");
+        System.out.println(brand + " " + model + " is driving");
+    }
+
+//it is executed automatically when we print:
+    public String toString() {
+        return "Car{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", year=" + year +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                ", miles=" + miles +
+                '}';
     }
 }
