@@ -27,7 +27,7 @@ public class Browser_NestedIf1 {
 
         if (validBrowser) {
             if (browserName=="opera") {
-               result = ("Opera browser is selected");
+               result = ("OperaBrowser browser is selected");
             } else if (browserName=="chrome") {
                 result = ("Chrome browser is selected");
             } else if (browserName=="firefox") {

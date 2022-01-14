@@ -23,7 +23,7 @@ public class Browser_NestedIf {
 
         if (browserName=="opera" || browserName=="chrome" || browserName=="firefox" || browserName=="safari" || browserName=="edge") {
             if (browserName=="opera") {
-                System.out.println("Opera browser is selected");
+                System.out.println("OperaBrowser browser is selected");
             } else if (browserName=="chrome") {
                 System.out.println("Chrome browser is selected");
             } else if (browserName=="firefox") {
