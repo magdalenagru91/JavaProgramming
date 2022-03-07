@@ -19,6 +19,9 @@ public class MaxNumArray {
               max=each;
            }
 
+
+
+
        }
        return max;
 

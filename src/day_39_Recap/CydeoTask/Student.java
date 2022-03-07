@@ -3,7 +3,7 @@ package day_39_Recap.CydeoTask;
 public class Student extends Person {
 
     /*
-    6. Create a sub class of Person named Student
+    6. Create a sub class of Person named Person
 
             Extra variables:
                 studentId, fieldOfStudy
@@ -54,7 +54,7 @@ public class Student extends Person {
     }
 
     public String toString() {
-        return "Student{" +
+        return "Person{" +
                 "name='" + getName() + '\'' +
                 ", age=" + getAge() +
                 ", gender=" + getGender() +

@@ -3,7 +3,7 @@ package day_39_Recap.CydeoTask;
 public class Cydeo {
     /*
     7. Create a class named Cydeo:
-            create objects of Tester, Developer,Teacher, Student
+            create objects of Tester, Developer,Teacher, Person
 
             test all the functions of each objects
 

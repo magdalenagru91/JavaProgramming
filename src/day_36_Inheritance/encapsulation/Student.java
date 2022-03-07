@@ -3,7 +3,7 @@ package day_36_Inheritance.encapsulation;
 public class Student {
 
     /*
-    1. Create a class named Student:
+    1. Create a class named Person:
             private variables:
                 name, age, gender, grade, schoolName
 
@@ -100,7 +100,7 @@ public class Student {
 
 
     public String toString() {
-        return "Student{" +
+        return "Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", gender=" + gender +

@@ -40,6 +40,9 @@ public class MathUtility {
     }
 
 
+    //example: public static int sum(int number1, int number2, int number3) {return number1+number2+number3;}
+
+
 
     /*
     2.2 Create a method that can return the sum of two decimal numbers

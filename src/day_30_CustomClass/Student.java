@@ -23,7 +23,7 @@ public class Student {
     }
 
     public String toString() {
-        return "Student{" +
+        return "Person{" +
                 "name='" + name + '\'' +
                 ", gender=" + gender +
                 ", age=" + age +

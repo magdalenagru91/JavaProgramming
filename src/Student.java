@@ -3,8 +3,8 @@ import java.util.Arrays;
 public class Student {
 
     /*
-    Student Task:
-        1. Create a class called Student:
+    Person Task:
+        1. Create a class called Person:
                 Attributes:
                     name, gender, age, studentID, grade
 
@@ -79,7 +79,7 @@ public class Student {
 
 
     public String toString() {      //it is instance method
-        return "Student{" +
+        return "Person{" +
                 "name='" + name + '\'' +
                 ", gender=" + gender +
                 ", age=" + age +

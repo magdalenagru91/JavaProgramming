@@ -7,5 +7,9 @@ public class CircleObjects {
 
         Circle circle1 = new Circle(2);
         System.out.println(circle1);
+
+
+        System.out.println(Circle.pi);
+
     }
 }

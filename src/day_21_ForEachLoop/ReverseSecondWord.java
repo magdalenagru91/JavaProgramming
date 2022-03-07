@@ -14,7 +14,7 @@ public class ReverseSecondWord {
         String reverse = "";
 
 
-        for (int i = str[1].length() - 1; i >= 0; i--) {        //here we are reversing only 1st string of the array,thats why str[1]
+        for (int i = str[1].length() - 1; i >= 0; i--) {        //here we are reversing only 1st index string of the array,thats why str[1]
             reverse += str[1].charAt(i);
         }
         System.out.println(reverse);
